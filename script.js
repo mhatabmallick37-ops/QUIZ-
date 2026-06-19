@@ -70,7 +70,7 @@ const quizData = [
   function showResult() {
     document.getElementById("quiz").innerHTML = `
       <h2>You scored ${score} out of ${quizData.length}</h2>
-      <button Again</button>
+      <button> Again</button>
     `;
   }
   
